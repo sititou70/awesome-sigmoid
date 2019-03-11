@@ -2,8 +2,6 @@
 [![npm version](https://badge.fury.io/js/awesome-sigmoid.svg)](https://badge.fury.io/js/awesome-sigmoid)
 [![Build Status](https://travis-ci.org/sititou70/awesome-sigmoid.svg?branch=master)](https://travis-ci.org/sititou70/awesome-sigmoid)
 
-generate perfect sigmoid function for you
-
 ![awesome sigmoid](https://raw.githubusercontent.com/sititou70/awesome-sigmoid/master/docs/awesome_sigmoid.png)
 
 ## install
