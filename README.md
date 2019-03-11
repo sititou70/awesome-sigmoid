@@ -1,7 +1,9 @@
 # awesome-sigmoid
+[![npm version](https://badge.fury.io/js/awesome-sigmoid.svg)](https://badge.fury.io/js/awesome-sigmoid)
+
 generate perfect sigmoid function for you
 
-![awesome sigmoid](/docs/awesome_sigmoid.png?raw=true)
+![awesome sigmoid](https://raw.githubusercontent.com/sititou70/awesome-sigmoid/master/docs/awesome_sigmoid.png)
 
 ## install
 `npm i awesome-sigmoid --save`
