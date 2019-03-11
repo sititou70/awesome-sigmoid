@@ -1,0 +1,32 @@
+{
+  "name": "awesome-sigmoid",
+  "version": "0.0.1",
+  "description": "generate perfect sigmoid function for you",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "test": "mocha -r @babel/register",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sititou70/awesome-sigmoid.git"
+  },
+  "keywords": [
+    "sigmoid",
+    "awesome"
+  ],
+  "author": "sititou70",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "mocha": "^6.0.2"
+  }
+}
