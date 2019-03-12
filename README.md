@@ -24,6 +24,6 @@ console.log(mySigmoid(Infinity)); //1
 console.log(mySigmoid(-Infinity)); //0
 ```
 
-## License
+## license
 `awesome-sigmoid` is MIT licensed.
 
