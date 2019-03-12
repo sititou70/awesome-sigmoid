@@ -8,7 +8,7 @@
 `npm i awesome-sigmoid --save`
 
 ## example
-```
+```javascript
 import makeAwesomeSigmoid from 'awesome-sigmoid';
 
 const mySigmoid = makeAwesomeSigmoid({

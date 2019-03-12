@@ -1,6 +1,6 @@
 {
   "name": "awesome-sigmoid",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "generate perfect sigmoid function for you",
   "main": "lib/index.js",
   "files": [
