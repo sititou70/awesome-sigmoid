@@ -1,18 +1,17 @@
-import assert from 'assert';
-import makeAwesomeSigmoid from '../src/index.js';
+import makeSigmoid from '.';
 
 const CLOSETO_RANGE = 0.000001;
-const closeTo = (val1, val2) => {
-  if(Math.abs(val1 - val2) < CLOSETO_RANGE){
-    assert.ok("both valuse is too close");
-  }else{
-    assert.equal(val1, val2);
+const closeTo = (val1: number, val2: number): void => {
+  if (Math.abs(val1 - val2) < CLOSETO_RANGE) {
+    // both valuse is too close
+  } else {
+    expect(val1).toEqual(val2);
   }
-}
+};
 
 describe('test case 1', () => {
-  it('test case 1', () => {
-    const sigmoid = makeAwesomeSigmoid({
+  test('test case 1', () => {
+    const sigmoid = makeSigmoid({
       center: 0,
       deviation: 1,
       deviation_output: 0.75,
@@ -25,9 +24,8 @@ describe('test case 1', () => {
     closeTo(sigmoid(-Infinity), 0);
   });
 
-
-  it('test case 2', () => {
-    const sigmoid = makeAwesomeSigmoid({
+  test('test case 2', () => {
+    const sigmoid = makeSigmoid({
       center: 50,
       deviation: 40,
       deviation_output: 0.9,
@@ -40,8 +38,8 @@ describe('test case 1', () => {
     closeTo(sigmoid(-Infinity), 0);
   });
 
-  it('test case 3', () => {
-    const sigmoid = makeAwesomeSigmoid({
+  test('test case 3', () => {
+    const sigmoid = makeSigmoid({
       center: -50,
       deviation: -40,
       deviation_output: 0.1,
@@ -54,4 +52,3 @@ describe('test case 1', () => {
     closeTo(sigmoid(-Infinity), 0);
   });
 });
-
